@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <div class="page">
+      <form id="form">
+        <input
+          class="search"
+          type="text"
+          placeholder="Type a city.."
+          id="type-a-city"
+        />
+        <input class="botton" type="submit" value="Search" />
+      </form>
+
+      <button>Geolocation</button>
+
+      <h1 id="city">Kyiv</h1>
+      <h6>Wednesday 22:00</h6>
+      <h2 class="text-1" id="text-description">
+        <br />
+        Partly Cloudy
+      </h2>
+      <h3>
+        <span id="temp"> 19</span>
+        <span class="units"
+          ><a href="#" id="celsius-link">°C</a>/<a href="#" id="fahrenhei-link"
+            >°F</a
+          ></span
+        >
+      </h3>
+      <img
+        src="http://openweathermap.org/img/wn/10d@2x.png"
+        alt="Clear"
+        id="icon"
+      />
+      <h2 class="text-2" id="text-humidity">Humidity: 77%</h2>
+      <h2 class="text-3" id="text-wind">Wind: 8 km/h</h2>
+    </div>
+    <p>
+      Open-source code on
+      <a href="https://github.com/AngelicaName/Homework_7.git"
+        ><strong>GitHub</strong></a
+      >, by Angelica Kononenko
+    </p>
+    <script src="src/index.js"></script>
+  </body>
+</html>

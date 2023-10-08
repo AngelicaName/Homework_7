@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .page {
+    border: 1px solid #6654f1;
+    max-width: 700px;
+    margin: 0 auto;
+    background: linear-gradient(-225deg, rgb(0, 191, 255) 35%, gold 45%);
+    padding: 30px 30px 30px 30px;
+    border-radius: 3px;
+  }
+  
+  .search {
+    margin: 20px;
+    padding: 15px 50px;
+    border-radius: 5px;
+  }
+  
+  .botton {
+    margin: 20px;
+    padding: 15px 25px;
+    color: gold;
+    background: rgb(0, 191, 255);
+    border-radius: 5px;
+  }
+  
+  button {
+    margin: 20px;
+    padding: 15px 25px;
+    color: gold;
+    background: blue;
+    border-radius: 5px;
+    position: relative;
+    top: -88px;
+    left: 450px;
+  }
+  
+  h1 {
+    font-size: 60px;
+    position: relative;
+    top: -70px;
+    left: 50px;
+  }
+  
+  #city:first-letter {
+    text-transform: capitalize;
+  }
+  
+  #text-description:first-letter {
+    text-transform: capitalize;
+  }
+  
+  h6 {
+    font-size: 23px;
+    position: relative;
+    top: -110px;
+    left: 50px;
+  }
+  
+  .text-1 {
+    margin: -30px 0px 30px 0px;
+    position: relative;
+    top: -150px;
+    left: 400px;
+  }
+  
+  h3 {
+    position: relative;
+    top: -190px;
+    left: 45px;
+  }
+  
+  span {
+    font-size: 70px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 45px;
+    color: blue;
+  }
+  
+  .text-2 {
+    position: relative;
+    top: -450px;
+    left: 400px;
+  }
+  
+  .text-3 {
+    position: relative;
+    top: -465px;
+    left: 400px;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  img {
+    position: relative;
+    top: -450px;
+    left: 400px;
+    width: 150px;
+  }
+  
+  strong {
+    font-size: 20px;
+  }
